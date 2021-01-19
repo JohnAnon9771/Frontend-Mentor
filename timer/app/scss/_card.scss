@@ -1,0 +1,30 @@
+.card {
+  height: 15.714rem;
+  width: 12rem;
+  margin: 1.428rem;
+
+  &__top {
+    position: relative;
+    height: 50%;
+    width: 100%;
+    border-radius: 1.428rem;
+    overflow: hidden;
+
+    background-color: $darkdesaturated;
+  }
+
+  &__span-top {
+    position: absolute;
+    bottom: -50px;
+    font-size: 8rem;
+  }
+
+  &__bottom {
+    height: 50%;
+    width: 100%;
+    border-radius: 1.428rem;
+
+    background-color: $darkdesaturated;
+    box-shadow: 0px 10px 2px $verydark;
+  }
+}
